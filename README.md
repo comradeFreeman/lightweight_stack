@@ -3,7 +3,7 @@
 Clone repository:
 `git clone https://github.com/comradeFreeman/lightweight_stack.git`
 
-Setup Python virtual environment:\
+Setup Python virtual environment:
 ```
 cd lightweight_stack
 python3 -m venv venv
