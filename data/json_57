@@ -1,0 +1,19 @@
+{
+  "organization": true,
+  "pupil": false,
+  "hole": [
+    -8759264.00760603,
+    "art",
+    [
+      407767700,
+      836501689,
+      false,
+      -311166052,
+      663964898
+    ],
+    "evidence",
+    "property"
+  ],
+  "driving": 1628252005,
+  "chosen": false
+}

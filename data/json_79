@@ -1,0 +1,13 @@
+[
+  {
+    "lying": {
+      "spin": "fruit",
+      "weather": false,
+      "allow": -1049088538
+    },
+    "coach": true,
+    "ear": false
+  },
+  true,
+  false
+]
