@@ -17,8 +17,6 @@ from datetime import datetime
 import socket
 import ssl
 from time import sleep
-from coap_tcp_tls_server import HOST as SERVER_HOST
-from coap_tcp_tls_server import PORT as SERVER_PORT
 from utils import convert_code, build_message, parse_message, Serializer, Compression
 from coapthon import defines
 import requests
@@ -26,6 +24,7 @@ from requests import Session
 
 HOST = "127.0.0.1"
 PORT = 2002
+SERVER_PORT = 2000
 
 
 
@@ -36,7 +35,7 @@ if __name__ == "__main__":
 		client.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		client = ssl.wrap_socket(client, keyfile="key.pem", certfile="cert.pem")
 		client.bind((HOST, PORT))
-		client.connect((SERVER_HOST, SERVER_PORT))
+		client.connect((HOST, SERVER_PORT))
 
 		received, sent = 0, 0
 		req = 	f"""

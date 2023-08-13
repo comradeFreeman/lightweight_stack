@@ -1,0 +1,6 @@
+CoAPthon3
+cbor2
+noiseprotocol
+requests
+zstd
+

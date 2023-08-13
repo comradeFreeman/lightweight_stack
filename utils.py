@@ -1,5 +1,3 @@
-import email.parser
-
 from coapthon import defines
 defines.Codes.NN_HANDSHAKE = defines.CodeItem(250, 'NN Handshake')
 defines.Codes.LIST[250] = defines.Codes.NN_HANDSHAKE
