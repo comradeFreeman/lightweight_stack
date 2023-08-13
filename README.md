@@ -4,10 +4,12 @@ Clone repository:
 `git clone https://github.com/comradeFreeman/lightweight_stack.git`
 
 Setup Python virtual environment:\
-```cd lightweight_stack
+```
+cd lightweight_stack
 python3 -m venv venv
 source ./venv/bin/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 Run script, which filename ends with `server`\
 Run script, which filename ends with `client`\
